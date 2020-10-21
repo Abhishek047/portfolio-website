@@ -77,7 +77,7 @@ function Details() {
             </Grid>
             <Grid item container direction='row' spacing={3}>
                 <Grid item>
-                    <Link to='/projects' >
+                    <Link to='/portfolio-website/projects' >
                         <Button
                         variant='contained'
                         endIcon={<RightArrow />}

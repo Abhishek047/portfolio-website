@@ -2,7 +2,7 @@
   "name": "framer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhishek047.github.io/portfolio-website",
+  "homepage": "https://abhishek047.github.io/portfolio-website/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",

@@ -101,7 +101,7 @@ function Footer() {
                     </Typography>
                 </li>
                 <li className={style.listItem}>
-                <Link to='/contact'>
+                <Link to='/portfolio-website/contact'>
                     <Button variant='contained' color='primary'>
                         Contact Me
                     </Button>
