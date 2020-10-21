@@ -17,7 +17,7 @@ function App() {
       <ThemeProvider theme={theme} >
       <Menu />
         <Switch>
-          <Route exact path="/portfolio-website" component={HomePage} />
+          <Route exact path="/portfolio-website/" component={HomePage} />
           <Route path="/portfolio-website/contact" component={ContactForm} />
           <Route path="/portfolio-website/admin/addProject" component={AddProject} />
           <Route path="/portfolio-website/projects" exact component={AllProjects} />
