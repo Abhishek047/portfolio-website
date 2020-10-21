@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import ProjectCard from './ProjectCard'
 import Grid from '@material-ui/core/Grid'
 import {motion} from 'framer-motion'
@@ -34,6 +34,23 @@ const useStyles = makeStyles({
     },
 });
 
+const loadingVariant={
+    animation:{
+        x:[-50,20],
+        y:[0,-60],
+        transition:{
+            x:{
+                yoyo: Infinity,
+                duration:0.7
+            },
+            y:{
+                yoyo: Infinity,
+                duration:0.35,
+                ease:'easeOut'
+            }
+        }
+    }
+}
 
 const parentContainer={
     hidden:{
@@ -73,6 +90,11 @@ function AllProjects() {
 
 
     const {docs} = useFireStore('projects');
+    const [documents, setDocuments] = useState();
+    useEffect(()=>{
+        setDocuments(docs);
+    },[docs]);
+
 
     //USED FOR ANIMATING DELAY
     let i=0;
@@ -99,7 +121,8 @@ function AllProjects() {
                     <Grid container justify='center' direction='column' alignItems='center' >
                         <Grid item xs={11} lg={9} container direction='row' spacing={4} justify='space-evenly' >
                             {
-                                docs && docs.map((item) => {
+                                documents ? 
+                                documents.map((item) => {
                                         i=i+0.7;
                                     return(
                                             <Grid key={item.id} item xs ={12} sm={6} md={4} >
@@ -120,6 +143,7 @@ function AllProjects() {
                                             </Grid>                                                                
                                     )
                                 })
+                                : <div className='backdrop'><motion.div variants={loadingVariant} animate='animation' className='loading' /></div>
                             }
                         </Grid>
                     </Grid>
