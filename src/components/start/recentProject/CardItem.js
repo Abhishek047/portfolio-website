@@ -99,7 +99,7 @@ function CardItem( {val, project} ) {
                     </CardContent>
                 </CardActionArea>
                 <CardActions className={style.footer} >
-                    <Link to={`/portfolio-website/projects/${project.id}`}>
+                    <Link to={`/projects/${project.id}`}>
                         <Button variant="contained" color="primary">
                             View Project
                         </Button>

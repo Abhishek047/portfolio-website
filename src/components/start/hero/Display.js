@@ -99,7 +99,7 @@ function Display() {
                 <Typography variant='body1' container='p' className={style.body}>
                 HI, I am Abhishek. I design and build Cool WebSites.
                 </Typography>
-                <Link to="/portfolio-website/contact">
+                <Link to="/contact">
                     <Button variant="contained" color="primary" className={style.btn} >
                         want to hier
                     </Button>

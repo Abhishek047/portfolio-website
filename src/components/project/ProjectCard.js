@@ -83,7 +83,7 @@ function ProjectCard({projectItem}) {
                     </CardContent>
                 </CardActionArea>
                 <CardActions className={style.footer} >
-                    <Link to={`/portfolio-website/projects/${projectItem.id}`}>
+                    <Link to={`/projects/${projectItem.id}`}>
                         <Button variant="contained" color="primary">
                             View Project
                         </Button>

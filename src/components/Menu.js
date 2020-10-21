@@ -64,37 +64,37 @@ function Menu() {
             >
                 {/* HERE START GIVING THE CHILD ELEMENTS */}
 
-           <Link to='/portfolio-website'>
-                <Tooltip title='Home' placement="top">
+           <Link to='/'>
+                {/* <Tooltip title='Home' placement="top"> */}
                     <IconButton 
                         // onClick={() => handleClick()} can Be USED FOR CLOSING THE MENU
                         className={style.childBtn}
                         name='Home'>
                         <HomeIcon />
                     </IconButton>
-                </Tooltip>
+                {/* </Tooltip> */}
             </Link>
 
-            <Link to="/portfolio-website/contact">
-                <Tooltip title='Contact'   placement="top" >
+            <Link to="/contact">
+                {/* <Tooltip title='Contact'   placement="top" > */}
                     <IconButton color='secondary' 
                     // onClick={() => handleClick()} can be used to turn off menu
                     className={style.childBtn}
                     name='Contact'>
                         <EmailIcon />
                     </IconButton>
-                </Tooltip>
+                {/* </Tooltip> */}
             </Link>
             
-            <Link to='/portfolio-website/projects' >
-                <Tooltip title='Projets'  placement="top">
+            <Link to='/projects' >
+                {/* <Tooltip title='Projets'  placement="top"> */}
                     <IconButton color='secondary' 
                     // onClick={() => handleClick()} can be used to turn off menu
                     className={style.childBtn}
                     name='Projects'>
                         <InfoIcon />
                     </IconButton>
-                </Tooltip>
+                {/* </Tooltip> */}
             </Link>
 
                 <div />
