@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.fa126258.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.41b9727e.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.41b9727e.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.4c4711bc.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.4c4711bc.js.map",
+    "static/js/2.5f85ceb7.chunk.js": "/portfolio-website/static/js/2.5f85ceb7.chunk.js",
+    "static/js/2.5f85ceb7.chunk.js.map": "/portfolio-website/static/js/2.5f85ceb7.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.16017c0cfe3e8858ad02979afaf48826.js": "/portfolio-website/precache-manifest.16017c0cfe3e8858ad02979afaf48826.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/main.fa126258.chunk.css.map": "/portfolio-website/static/css/main.fa126258.chunk.css.map",
+    "static/js/2.5f85ceb7.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.5f85ceb7.chunk.js.LICENSE.txt",
+    "static/media/Facebook.svg": "/portfolio-website/static/media/Facebook.c65c9f3b.svg",
+    "static/media/Ghost.svg": "/portfolio-website/static/media/Ghost.5435196e.svg",
+    "static/media/Git.svg": "/portfolio-website/static/media/Git.165255e6.svg",
+    "static/media/LinkedIn.svg": "/portfolio-website/static/media/LinkedIn.c2560d05.svg",
+    "static/media/Profile.jpg": "/portfolio-website/static/media/Profile.3dde4049.jpg",
+    "static/media/ProjectBg.svg": "/portfolio-website/static/media/ProjectBg.d0eec035.svg",
+    "static/media/RightArrow.svg": "/portfolio-website/static/media/RightArrow.fbf1d7ae.svg",
+    "static/media/WhatsApp.svg": "/portfolio-website/static/media/WhatsApp.42488afa.svg",
+    "static/media/dots.svg": "/portfolio-website/static/media/dots.a0b883b8.svg",
+    "static/media/exp_icon.png": "/portfolio-website/static/media/exp_icon.98ff4822.png",
+    "static/media/img.jpg": "/portfolio-website/static/media/img.509191fa.jpg",
+    "static/media/mongo_icon.png": "/portfolio-website/static/media/mongo_icon.60605a1a.png",
+    "static/media/node_icon.png": "/portfolio-website/static/media/node_icon.018a11af.png",
+    "static/media/r_icon.png": "/portfolio-website/static/media/r_icon.c7fb02ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c4711bc.js",
+    "static/js/2.5f85ceb7.chunk.js",
+    "static/css/main.fa126258.chunk.css",
+    "static/js/main.41b9727e.chunk.js"
+  ]
+}
