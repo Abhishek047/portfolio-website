@@ -45,7 +45,7 @@ function RecentProject() {
                         RECENT <span className={style.halfHead} > PROJECT</span>    
                     </Typography>
                 </Grid>
-                <Grid item xs={10} sm={11} md={9} spacing={10} className={style.section} container justify='center' alignItems='center' >
+                <Grid item xs={12} sm={11} md={9} lg={7} spacing={10} className={style.section} container justify='center' alignItems='center' >
                     <Cards />
                 </Grid>
             </Grid>

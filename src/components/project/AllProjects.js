@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react'
+import React,{ useEffect} from 'react'
 import ProjectCard from './ProjectCard'
 import Grid from '@material-ui/core/Grid'
 import {motion} from 'framer-motion'
@@ -58,12 +58,6 @@ const parentContainer={
     },
     visible:{
         opacity:1,
-        transition:{
-            delay:0.5,
-            type:'spring',
-            when:"beforeChildren",
-            staggerChildren:0.2,
-        }
     }
 }
 
@@ -90,9 +84,8 @@ function AllProjects() {
 
 
     const {docs} = useFireStore('projects');
-    const [documents, setDocuments] = useState();
     useEffect(()=>{
-        setDocuments(docs);
+        console.log('LOADED')
     },[docs]);
 
 
@@ -102,6 +95,7 @@ function AllProjects() {
 
     return (
         <motion.div
+        style={{minHeight:'100vh'}}
         variants={parentContainer}
         initial='hidden'
         animate='visible'
@@ -121,8 +115,8 @@ function AllProjects() {
                     <Grid container justify='center' direction='column' alignItems='center' >
                         <Grid item xs={11} lg={9} container direction='row' spacing={4} justify='space-evenly' >
                             {
-                                documents ? 
-                                documents.map((item) => {
+                                docs ? 
+                                docs.map((item) => {
                                         i=i+0.7;
                                     return(
                                             <Grid key={item.id} item xs ={12} sm={6} md={4} >
@@ -148,16 +142,6 @@ function AllProjects() {
                         </Grid>
                     </Grid>
                 </motion.div>                    
-                        {/* ONLY ONE NEEDED */}
-                        {/* TEMPLETE HOW A SINGLLE ITEM LOOKs */}
-                        {/* <Grid item xs ={12} sm={6} md={4} >
-                            <motion.div
-                            variants={cardChildVariants}
-                            >
-                                <ProjectCard />
-                            </motion.div>
-                        </Grid>*/}
-                    
         </motion.div>
     )
 }
