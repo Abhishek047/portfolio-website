@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
         },
     },
     div:{
-        background: '#444444',
+        background: '#333',
         color:"#FFFFFF",
         [theme.breakpoints.down('sm')]:{
             height:450,

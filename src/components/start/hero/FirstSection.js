@@ -11,7 +11,7 @@ const useStyles = makeStyles({
         height:600,
     },
     div:{
-        background: '#444444',
+        background: '#333',
         color:"#FFFFFF",
     },
 });

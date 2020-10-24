@@ -9,7 +9,7 @@ import MobileMenu from './navigation/MobileMenu'
 
 const useStyles = makeStyles((theme) => ({
     nav:{
-        background:'#444',
+        background:'#333',
         color:'#fff',
     },
     title: {

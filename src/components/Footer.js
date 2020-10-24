@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     container:{
         padding:'20px 0',
         color:'white',
-        backgroundColor:'#444444',
+        backgroundColor:'#333',
     },
     list:{
         display:'flex',
@@ -48,7 +48,7 @@ function Footer() {
                     whileHover={{scale: 1.2,}}
                     whileTap={{scale:0.9}}
                     className={style.listItem} >
-                        <a href='https://www.google.com'>
+                        <a href='https://www.github.com/Abhishek047/'>
                         <motion.img
                         whileHover={{boxShadow:'0 0 10px rgba(0,0,0,0.25)'}} 
                         src={GitIcon} alt='Github Icon' className={style.listIcon} /></a>
@@ -58,7 +58,7 @@ function Footer() {
                     whileTap={{scale:0.9,}}
                     whileHover={{scale: 1.2}}
                     className={style.listItem} >
-                        <a href='https://www.google.com'>
+                        <a href='https://api.whatsapp.com/send?%20phone=9129583574'>
                              <motion.img src={WhatsAppIcon} 
                              whileHover={{boxShadow:'0 0 10px rgba(0,0,0,0.25)'}}
                              alt='WhatsApp Icon' className={style.listIcon} /></a>
@@ -68,7 +68,7 @@ function Footer() {
                     whileTap={{scale:0.9}}
                     whileHover={{scale: 1.2}}
                     className={style.listItem} >
-                        <a href='https://www.google.com'> 
+                        <a href='https://www.facebook.com/abhishek.cenation.1/'> 
                         <motion.img src={FacebookIcon}
                         whileHover={{boxShadow:'0 0 10px rgba(0,0,0,0.25)'}}
                         alt='facebook Icon' className={style.listIcon}/></a>

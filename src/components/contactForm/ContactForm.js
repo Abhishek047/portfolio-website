@@ -18,11 +18,10 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.down('xs')]:{
             height:'30%',
         },
-        background: '#444444',
+        background: '#333',
         color:"#FFFFFF",
     },
     form:{
-        
         [theme.breakpoints.down('xs')]:{
             height:'70%',
         },
